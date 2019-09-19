@@ -1,0 +1,8 @@
+.press-btn {
+  background: none;
+  border: 1px solid $blue;
+  &:hover {
+    background: $blue;
+    color: white;  
+  }
+}

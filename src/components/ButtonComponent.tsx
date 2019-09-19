@@ -7,7 +7,7 @@ interface IProps {
 export const ButtonComponent: React.FC<IProps> = ({buttonText}) => {
   return (
     <div>
-      <button>
+      <button className="press-btn">
         {buttonText}
       </button>
     </div>
